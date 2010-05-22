@@ -37,6 +37,10 @@
     <Reference Include="LinFu.Core">
       <HintPath>..\..\lib\LinFu\LinFu.Core.dll</HintPath>
     </Reference>
+    <Reference Include="LinFu.DynamicProxy, Version=1.0.3.28303, Culture=neutral, PublicKeyToken=62a6874124340d6e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\LinFu\LinFu.DynamicProxy.dll</HintPath>
+    </Reference>
     <Reference Include="MvcTurbine">
       <HintPath>..\..\lib\MvcTurbine\MvcTurbine.dll</HintPath>
     </Reference>

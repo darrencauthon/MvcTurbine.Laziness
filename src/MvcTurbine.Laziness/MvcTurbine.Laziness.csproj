@@ -34,6 +34,9 @@
     <Reference Include="LinFu.Core">
       <HintPath>..\..\lib\LinFu\LinFu.Core.dll</HintPath>
     </Reference>
+    <Reference Include="LinFu.DynamicProxy">
+      <HintPath>..\..\lib\LinFu\LinFu.DynamicProxy.dll</HintPath>
+    </Reference>
     <Reference Include="MvcTurbine">
       <HintPath>..\..\lib\MvcTurbine\MvcTurbine.dll</HintPath>
     </Reference>
@@ -47,7 +50,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ILazy.cs" />
-    <Compile Include="Lazy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
