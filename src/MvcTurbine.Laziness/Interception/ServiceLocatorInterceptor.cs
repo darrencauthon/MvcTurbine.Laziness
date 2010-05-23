@@ -4,7 +4,7 @@ using System.Linq;
 using LinFu.DynamicProxy;
 using MvcTurbine.ComponentModel;
 
-namespace MvcTurbine.Laziness
+namespace MvcTurbine.Laziness.Interception
 {
     public interface IServiceLocatorInterceptor
     {

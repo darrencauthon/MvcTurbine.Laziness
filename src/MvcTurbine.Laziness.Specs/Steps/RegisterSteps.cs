@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using MvcTurbine.ComponentModel;
+using MvcTurbine.Laziness.Interception;
+using MvcTurbine.Laziness.Registration;
 using Should;
 using SpecFlowAssist;
 using TechTalk.SpecFlow;

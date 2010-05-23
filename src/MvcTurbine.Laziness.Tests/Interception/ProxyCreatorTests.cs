@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using AutoMoq;
 using MvcTurbine.ComponentModel;
+using MvcTurbine.Laziness.Interception;
 using NUnit.Framework;
 using Should;
 
-namespace MvcTurbine.Laziness.Tests
+namespace MvcTurbine.Laziness.Tests.Interception
 {
     [TestFixture]
     public class ProxyCreatorTests

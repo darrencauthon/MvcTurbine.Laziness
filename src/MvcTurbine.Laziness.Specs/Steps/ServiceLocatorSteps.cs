@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using LinFu.DynamicProxy;
 using MvcTurbine.ComponentModel;
+using MvcTurbine.Laziness.Interception;
 using Should;
 using SpecFlowAssist;
 using TechTalk.SpecFlow;

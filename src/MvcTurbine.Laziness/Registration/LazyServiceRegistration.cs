@@ -1,6 +1,7 @@
 using MvcTurbine.ComponentModel;
+using MvcTurbine.Laziness.Interception;
 
-namespace MvcTurbine.Laziness
+namespace MvcTurbine.Laziness.Registration
 {
     public class LazyServiceRegistration : IServiceRegistration
     {
