@@ -106,7 +106,64 @@ testRunner.And("a class named TestClass exists");
 #line 21
 testRunner.When("I resolve TestClass");
 #line 22
-testRunner.Then("the result should be an implementation of TestClasss");
+testRunner.Then("the result should be an implementation of TestClass from the service locator");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Resolve a generic class properly")]
+        public virtual void ResolveAGenericClassProperly()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Resolve a generic class properly", ((string[])(null)));
+#line 24
+this.ScenarioSetup(scenarioInfo);
+#line 25
+testRunner.Given("I have been set up to intercept calls to a service locator");
+#line 26
+testRunner.And("a class named TestGenericClass<T> exists");
+#line 27
+testRunner.When("I resolve TestGenericClass<string>");
+#line 28
+testRunner.Then("the result should be an implementation of TestGenericClass<string> from the servi" +
+                    "ce locator");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Resolve a generic interface properly")]
+        public virtual void ResolveAGenericInterfaceProperly()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Resolve a generic interface properly", ((string[])(null)));
+#line 30
+this.ScenarioSetup(scenarioInfo);
+#line 31
+testRunner.Given("I have been set up to intercept calls to a service locator");
+#line 32
+testRunner.And("a class named ITestGenericClass<T> exists");
+#line 33
+testRunner.When("I resolve ITestGenericClass<string>");
+#line 34
+testRunner.Then("the result should be an implementation of ITestGenericClass<string> from the serv" +
+                    "ice locator");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Something other than Resolve is called")]
+        public virtual void SomethingOtherThanResolveIsCalled()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Something other than Resolve is called", ((string[])(null)));
+#line 36
+this.ScenarioSetup(scenarioInfo);
+#line 37
+testRunner.Given("I have been set up to intercept calls to a service locator");
+#line 38
+testRunner.When("I call Release");
+#line 39
+testRunner.Then("the Release call should be invoked");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
