@@ -23,7 +23,7 @@ namespace MvcTurbine.Laziness.Specs.Features
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "ServiceProviderThatHandlesLazyResolution.feature"
+#line 1 "ServiceLocatorThatHandlesLazyResolution.feature"
 #line hidden
         
         [NUnit.Framework.TestFixtureSetUpAttribute()]
