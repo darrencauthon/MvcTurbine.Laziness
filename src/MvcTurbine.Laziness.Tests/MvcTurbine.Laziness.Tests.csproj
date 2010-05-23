@@ -62,7 +62,7 @@
   <ItemGroup>
     <Compile Include="LazyTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ProxyCreatorTests.cs" />
+    <Compile Include="Interception\ProxyCreatorTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MvcTurbine.Laziness\MvcTurbine.Laziness.csproj">
