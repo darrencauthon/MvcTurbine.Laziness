@@ -54,6 +54,7 @@
     <Compile Include="Lazy.cs" />
     <Compile Include="LazyServiceRegistration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProxyCreator.cs" />
     <Compile Include="ServiceLocatorInterceptor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

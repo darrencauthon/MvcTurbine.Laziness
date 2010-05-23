@@ -6,7 +6,12 @@ using MvcTurbine.ComponentModel;
 
 namespace MvcTurbine.Laziness
 {
-    public class ServiceLocatorInterceptor : IInvokeWrapper
+    public interface IServiceLocatorInterceptor
+    {
+        object DoInvoke(InvocationInfo info);
+    }
+
+    public class ServiceLocatorInterceptor : IInvokeWrapper, IServiceLocatorInterceptor
     {
         private const string LazyId = "MvcTurbine.Laziness.ILazy";
         private readonly IServiceLocator serviceLocator;
