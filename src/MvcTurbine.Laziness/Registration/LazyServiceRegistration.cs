@@ -5,11 +5,16 @@ namespace MvcTurbine.Laziness.Registration
 {
     public class LazyServiceRegistration : IServiceRegistration
     {
-        private readonly IProxyCreator proxyCreator;
+        private IProxyCreator proxyCreator;
 
-        public LazyServiceRegistration(IProxyCreator proxyCreator)
+        public LazyServiceRegistration()
         {
-            this.proxyCreator = proxyCreator;
+            proxyCreator = new ProxyCreator();
+        }
+
+        public IProxyCreator ProxyCreator
+        {
+            set { proxyCreator = value; }
         }
 
         public void Register(IServiceLocator locator)

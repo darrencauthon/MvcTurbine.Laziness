@@ -36,6 +36,7 @@ namespace MvcTurbine.Laziness.Specs.Steps
         {
             var serviceLocator = context.Get<IServiceLocator>("serviceLocator");
             var lazyServiceRegistration = context.Resolve<LazyServiceRegistration>();
+            lazyServiceRegistration.ProxyCreator = context.GetMock<IProxyCreator>().Object;
             lazyServiceRegistration.Register(serviceLocator);
         }
 
