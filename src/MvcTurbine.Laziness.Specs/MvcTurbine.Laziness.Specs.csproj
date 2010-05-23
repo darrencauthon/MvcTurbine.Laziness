@@ -31,9 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AutoMoq">
-      <HintPath>..\..\lib\AutoMoq\AutoMoq.dll</HintPath>
-    </Reference>
     <Reference Include="LinFu.Core">
       <HintPath>..\..\lib\LinFu\LinFu.Core.dll</HintPath>
     </Reference>
@@ -62,12 +59,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\ReplaceTheServiceLocatorWithAProxyThatHandlesLazy.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReplaceTheServiceLocatorWithAProxyThatHandlesLazy.feature</DependentUpon>
+    </Compile>
     <Compile Include="Features\ServiceLocatorThatHandlesLazyResolution.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ServiceLocatorThatHandlesLazyResolution.feature</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Steps\RegisterSteps.cs" />
     <Compile Include="Steps\ServiceLocatorSteps.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +80,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Features\ReplaceTheServiceLocatorWithAProxyThatHandlesLazy.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>ReplaceTheServiceLocatorWithAProxyThatHandlesLazy.feature.cs</LastGenOutput>
+    </None>
     <None Include="Features\ServiceLocatorThatHandlesLazyResolution.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>ServiceLocatorThatHandlesLazyResolution.feature.cs</LastGenOutput>
