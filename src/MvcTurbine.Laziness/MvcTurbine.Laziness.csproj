@@ -50,7 +50,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ILazy.cs" />
-    <Compile Include="IProxyCreator.cs" />
     <Compile Include="Lazy.cs" />
     <Compile Include="LazyServiceRegistration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -3,6 +3,11 @@ using MvcTurbine.ComponentModel;
 
 namespace MvcTurbine.Laziness
 {
+    public interface IProxyCreator
+    {
+        IServiceLocator Create(IServiceLocator serviceLocator);
+    }
+
     public class ProxyCreator : IProxyCreator
     {
         public IServiceLocator Create(IServiceLocator serviceLocator)
