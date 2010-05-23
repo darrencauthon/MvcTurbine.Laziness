@@ -31,6 +31,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMoq">
+      <HintPath>..\..\lib\AutoMoq\AutoMoq.dll</HintPath>
+    </Reference>
+    <Reference Include="LinFu.Core">
+      <HintPath>..\..\lib\LinFu\LinFu.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="LinFu.DynamicProxy">
+      <HintPath>..\..\lib\LinFu\LinFu.DynamicProxy.dll</HintPath>
+    </Reference>
     <Reference Include="MvcTurbine">
       <HintPath>..\..\lib\MvcTurbine\MvcTurbine.dll</HintPath>
     </Reference>
@@ -41,6 +50,9 @@
     <Reference Include="Should">
       <HintPath>..\..\lib\Should\Should.dll</HintPath>
     </Reference>
+    <Reference Include="SpecFlowAssist">
+      <HintPath>..\..\lib\SpecFlowAssist\SpecFlowAssist.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,16 +60,27 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="TechTalk.SpecFlow">
-      <HintPath>..\..\lib\SpecFlow\TechTalk.SpecFlow.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\ServiceProviderThatHandlesLazyResolution.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServiceProviderThatHandlesLazyResolution.feature</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Steps\ServiceLocatorSteps.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Features\" />
-    <Folder Include="Steps\" />
+    <ProjectReference Include="..\MvcTurbine.Laziness\MvcTurbine.Laziness.csproj">
+      <Project>{519329B3-4DA4-4E0D-8E56-B33CD57AB588}</Project>
+      <Name>MvcTurbine.Laziness</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Features\ServiceProviderThatHandlesLazyResolution.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>ServiceProviderThatHandlesLazyResolution.feature.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

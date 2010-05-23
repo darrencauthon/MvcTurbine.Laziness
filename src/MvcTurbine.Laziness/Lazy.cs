@@ -31,5 +31,21 @@ namespace MvcTurbine.Laziness
         {
             set { serviceLocator = value; }
         }
+
+
+    }
+
+    public static class Helpers
+    {
+        public static object CreateLazy(IServiceLocator serviceLocator, Type type)
+        {
+            var lazyType = typeof(Lazy<>);
+
+            var genericType = lazyType.MakeGenericType(new[] { type });
+
+            var lazy = Activator.CreateInstance(genericType) as INeedAServiceLocator;
+            lazy.ServiceLocator = serviceLocator;
+            return lazy;
+        }
     }
 }
