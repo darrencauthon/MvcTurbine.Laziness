@@ -7,8 +7,38 @@
     </boolean>
   </SettingsComponent>
   <RecentFiles>
-    <RecentFiles />
-    <RecentEdits />
+    <RecentFiles>
+      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:ILazy.cs" caret="214" fromTop="9" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="1120" fromTop="12" />
+      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:Lazy.cs" caret="760" fromTop="3" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="18" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="14" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="11" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="12" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="10" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="16" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="21" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="26" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="16" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="27" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="121" />
+      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:ILazy.cs" caret="262" fromTop="10" />
+      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:ILazy.cs" caret="122" fromTop="3" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="19" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="14" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="15" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="144" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="16" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="20" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="16" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="0" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="4443" fromTop="148" />
+      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:Lazy.cs" caret="348" fromTop="9" />
+      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:Lazy.cs" caret="778" fromTop="18" />
+      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="1596" fromTop="14" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -20,4 +50,70 @@
     <NUnitInstallDir>C:\Program Files\NUnit 2.5.4\bin\net-2.0\</NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="testmstest" priority="2" />
+      <Item value="testnunit" priority="3" />
+      <Item value="var" priority="8" />
+      <Item value="try" priority="2" />
+      <Item value="Assert`0" priority="1" />
+      <Item value="InvalidOperationException`0" priority="0" />
+      <Item value="if" priority="3" />
+      <Item value="catch" priority="0" />
+      <Item value="correctExceptionThrown" priority="1" />
+      <Item value="exception" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="LazyTests`0" priority="2" />
+      <Item value="new" priority="6" />
+      <Item value="ILazy" priority="0" />
+      <Item value="T`0" priority="1" />
+      <Item value="InvalidOperationException" priority="0" />
+      <Item value="Lazy" priority="1" />
+      <Item value="lazy" priority="5" />
+      <Item value="public" priority="2" />
+      <Item value="class" priority="0" />
+      <Item value="IServiceProvider`0" priority="0" />
+      <Item value="interface" priority="0" />
+      <Item value="INeedAServiceLocator`0" priority="0" />
+      <Item value="ServiceLocator" priority="0" />
+      <Item value="value" priority="1" />
+      <Item value="private" priority="1" />
+      <Item value="ServiceLocatorExtensions`0" priority="0" />
+      <Item value="IServiceLocator`0" priority="0" />
+      <Item value="serviceLocator" priority="2" />
+      <Item value="return" priority="3" />
+      <Item value="null" priority="1" />
+      <Item value="as" priority="0" />
+      <Item value="Test`0" priority="0" />
+      <Item value="TestServiceLocator`0" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="TestClass`0" priority="0" />
+      <Item value="type" priority="0" />
+      <Item value="testClass" priority="0" />
+      <Item value="TestClass" priority="0" />
+      <Item value="typeof" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="Throws`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.InvalidOperationException">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcTurbine.Laziness.Tests.Lazy`1">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcTurbine.Laziness.Lazy`1">
+      <Item value="ServiceLocator" priority="0" />
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcTurbine.Laziness.Tests.TestServiceLocator">
+      <Item value="SetServiceLocatorToReturnThisWhenResolvingTestClass`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcTurbine.Laziness.Tests.TestClass">
+      <Item value="ShouldBeSameAs`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcTurbine.ComponentModel.IServiceLocator">
+      <Item value="Resolve`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>

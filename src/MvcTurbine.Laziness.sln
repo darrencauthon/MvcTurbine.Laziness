@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTurbine.Laziness", "MvcT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTurbine.Laziness.Tests", "MvcTurbine.Laziness.Tests\MvcTurbine.Laziness.Tests.csproj", "{67E7B160-FA49-48CC-A215-2489A20B0DC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTurbine.Laziness.Specs", "MvcTurbine.Laziness.Specs\MvcTurbine.Laziness.Specs.csproj", "{66251FF0-012B-4806-AAD7-CD763BD641CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{67E7B160-FA49-48CC-A215-2489A20B0DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67E7B160-FA49-48CC-A215-2489A20B0DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67E7B160-FA49-48CC-A215-2489A20B0DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66251FF0-012B-4806-AAD7-CD763BD641CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66251FF0-012B-4806-AAD7-CD763BD641CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66251FF0-012B-4806-AAD7-CD763BD641CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66251FF0-012B-4806-AAD7-CD763BD641CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
