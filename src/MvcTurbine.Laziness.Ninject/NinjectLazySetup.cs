@@ -12,7 +12,7 @@ namespace MvcTurbine.Laziness.Ninject
             return serviceLocator.GetType() == typeof (NinjectServiceLocator);
         }
 
-        public void Setup<T>(IServiceLocator serviceLocator) where T : class
+        public void Setup(IServiceLocator serviceLocator)
         {
             var ninjectServiceLocator = (NinjectServiceLocator)serviceLocator;
             var kernel = ninjectServiceLocator.Container;

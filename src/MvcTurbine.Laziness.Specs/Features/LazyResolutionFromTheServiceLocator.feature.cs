@@ -63,10 +63,12 @@ this.ScenarioSetup(scenarioInfo);
 #line 7
 testRunner.Given("I have a UnityServiceLocator");
 #line 8
-testRunner.And("I have spun the Laziness blade");
+testRunner.And("all lazy setup has been done");
 #line 9
-testRunner.When("I resolve an ILazy<Repository>");
+testRunner.And("I have spun the Laziness blade");
 #line 10
+testRunner.When("I resolve an ILazy<Repository>");
+#line 11
 testRunner.Then("I should get an ILazy<Repository>");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -77,15 +79,17 @@ testRunner.Then("I should get an ILazy<Repository>");
         public virtual void ResolveILazyTFromAStructureMapContainer()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Resolve ILazy<T> from a StructureMap container", ((string[])(null)));
-#line 12
-this.ScenarioSetup(scenarioInfo);
 #line 13
-testRunner.Given("I have a StructureMapServiceLocator");
+this.ScenarioSetup(scenarioInfo);
 #line 14
-testRunner.And("I have spun the Laziness blade");
+testRunner.Given("I have a StructureMapServiceLocator");
 #line 15
-testRunner.When("I resolve an ILazy<Repository>");
+testRunner.And("all lazy setup has been done");
 #line 16
+testRunner.And("I have spun the Laziness blade");
+#line 17
+testRunner.When("I resolve an ILazy<Repository>");
+#line 18
 testRunner.Then("I should get an ILazy<Repository>");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -96,15 +100,17 @@ testRunner.Then("I should get an ILazy<Repository>");
         public virtual void ResolveILazyTFromANinjectContainer()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Resolve ILazy<T> from a Ninject container", ((string[])(null)));
-#line 18
-this.ScenarioSetup(scenarioInfo);
-#line 19
-testRunner.Given("I have a NinjectServiceLocator");
 #line 20
-testRunner.And("I have spun the Laziness blade");
+this.ScenarioSetup(scenarioInfo);
 #line 21
-testRunner.When("I resolve an ILazy<Repository>");
+testRunner.Given("I have a NinjectServiceLocator");
 #line 22
+testRunner.And("all lazy setup has been done");
+#line 23
+testRunner.And("I have spun the Laziness blade");
+#line 24
+testRunner.When("I resolve an ILazy<Repository>");
+#line 25
 testRunner.Then("I should get an ILazy<Repository>");
 #line hidden
             testRunner.CollectScenarioErrors();
@@ -115,15 +121,17 @@ testRunner.Then("I should get an ILazy<Repository>");
         public virtual void ResolveILazyTFromAWindsorContainer()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Resolve ILazy<T> from a Windsor container", ((string[])(null)));
-#line 24
-this.ScenarioSetup(scenarioInfo);
-#line 25
-testRunner.Given("I have a WindsorServiceLocator");
-#line 26
-testRunner.And("I have spun the Laziness blade");
 #line 27
-testRunner.When("I resolve an ILazy<Repository>");
+this.ScenarioSetup(scenarioInfo);
 #line 28
+testRunner.Given("I have a WindsorServiceLocator");
+#line 29
+testRunner.And("all lazy setup has been done");
+#line 30
+testRunner.And("I have spun the Laziness blade");
+#line 31
+testRunner.When("I resolve an ILazy<Repository>");
+#line 32
 testRunner.Then("I should get an ILazy<Repository>");
 #line hidden
             testRunner.CollectScenarioErrors();

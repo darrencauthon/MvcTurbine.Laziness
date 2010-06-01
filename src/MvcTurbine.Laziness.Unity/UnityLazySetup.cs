@@ -10,7 +10,7 @@ namespace MvcTurbine.Laziness.Unity
             return serviceLocator.GetType() == typeof (UnityServiceLocator);
         }
 
-        public void Setup<T>(IServiceLocator serviceLocator) where T : class
+        public void Setup(IServiceLocator serviceLocator)
         {
             var unityServiceLocator = (UnityServiceLocator)serviceLocator;
             var container = unityServiceLocator.Container;

@@ -1,14 +1,9 @@
 using MvcTurbine.Blades;
-using MvcTurbine.Ninject;
-using MvcTurbine.StructureMap;
-using MvcTurbine.Unity;
-using MvcTurbine.Windsor;
-using Ninject;
-using Ninject.Activation;
+using MvcTurbine.ComponentModel;
 
 namespace MvcTurbine.Laziness
 {
-    public class LazinessBlade : Blade
+    public class LazinessBlade : Blade, ISupportAutoRegistration
     {
         public override void Spin(IRotorContext context)
         {
@@ -70,5 +65,11 @@ namespace MvcTurbine.Laziness
         //        container.RegisterType(typeof (ILazy<>), typeof (Lazy<>));
         //    }
         //}
+        public void AddRegistrations(AutoRegistrationList registrationList)
+        {
+            registrationList.Add(
+                Registration.Custom<ILazySetup>(RegistrationFilters.DefaultFilter,
+                                                (locator, type) => locator.Register<ILazySetup>(type)));
+        }
     }
 }

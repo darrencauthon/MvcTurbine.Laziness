@@ -99,6 +99,22 @@
     <Compile Include="Steps\LazyResolutionSteps.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MvcTurbine.Laziness.Ninject\MvcTurbine.Laziness.Ninject.csproj">
+      <Project>{0237ED83-7E59-47DD-BA6E-7D8CCEBD5F21}</Project>
+      <Name>MvcTurbine.Laziness.Ninject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MvcTurbine.Laziness.StructureMap\MvcTurbine.Laziness.StructureMap.csproj">
+      <Project>{63A67FB5-EC38-4361-9E58-A4C77B19E315}</Project>
+      <Name>MvcTurbine.Laziness.StructureMap</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MvcTurbine.Laziness.Unity\MvcTurbine.Laziness.Unity.csproj">
+      <Project>{AAA4E8B8-798C-4652-816A-130D532978BD}</Project>
+      <Name>MvcTurbine.Laziness.Unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MvcTurbine.Laziness.Windsor\MvcTurbine.Laziness.Windsor.csproj">
+      <Project>{E227A5DE-6854-43B9-8E5B-C1A947EDECED}</Project>
+      <Name>MvcTurbine.Laziness.Windsor</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MvcTurbine.Laziness\MvcTurbine.Laziness.csproj">
       <Project>{519329B3-4DA4-4E0D-8E56-B33CD57AB588}</Project>
       <Name>MvcTurbine.Laziness</Name>

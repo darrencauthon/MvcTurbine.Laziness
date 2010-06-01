@@ -10,7 +10,7 @@ namespace MvcTurbine.Laziness.StructureMap
             return serviceLocator.GetType() == typeof (StructureMapServiceLocator);
         }
 
-        public void Setup<T>(IServiceLocator serviceLocator) where T : class
+        public void Setup(IServiceLocator serviceLocator)
         {
             var structureMapServiceLocator = (StructureMapServiceLocator)serviceLocator;
             var container = structureMapServiceLocator.Container;

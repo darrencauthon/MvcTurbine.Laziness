@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Moq;
+﻿using Moq;
 using MvcTurbine.ComponentModel;
+using MvcTurbine.Laziness.Ninject;
+using MvcTurbine.Laziness.StructureMap;
+using MvcTurbine.Laziness.Unity;
+using MvcTurbine.Laziness.Windsor;
 using MvcTurbine.Ninject;
 using MvcTurbine.StructureMap;
 using MvcTurbine.Unity;
@@ -17,8 +17,10 @@ namespace MvcTurbine.Laziness.Specs.Steps
     [Binding]
     public class LazyResolutionSteps
     {
-
-        public ScenarioContext context { get { return ScenarioContext.Current; } }
+        public ScenarioContext context
+        {
+            get { return ScenarioContext.Current; }
+        }
 
         [Given(@"I have a UnityServiceLocator")]
         public void GivenIHaveAUnityContainer()
@@ -58,6 +60,23 @@ namespace MvcTurbine.Laziness.Specs.Steps
             UseThisServiceLocator(serviceLocator);
         }
 
+        [Given(@"all lazy setup has been done")]
+        public void GivenAllLazySetupHasBeenDone()
+        {
+            var serviceLocator = context.Get<IServiceLocator>();
+
+            if ((new StructureMapLazySetup()).CanSetup(serviceLocator))
+                (new StructureMapLazySetup()).Setup(serviceLocator);
+
+            if ((new NinjectLazySetup()).CanSetup(serviceLocator))
+                (new NinjectLazySetup()).Setup(serviceLocator);
+
+            if ((new WindsorLazySetup()).CanSetup(serviceLocator))
+                (new WindsorLazySetup()).Setup(serviceLocator);
+
+            if ((new UnityLazySetup()).CanSetup(serviceLocator))
+                (new UnityLazySetup()).Setup(serviceLocator);
+        }
 
         private void UseThisServiceLocator(IServiceLocator serviceLocator)
         {
@@ -92,7 +111,8 @@ namespace MvcTurbine.Laziness.Specs.Steps
             return rotorContext;
         }
 
-        public class TestRepository { }
-
+        public class TestRepository
+        {
+        }
     }
 }

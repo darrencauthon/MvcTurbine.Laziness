@@ -11,7 +11,7 @@ namespace MvcTurbine.Laziness.Windsor
             return serviceLocator.GetType() == typeof (WindsorServiceLocator);
         }
 
-        public void Setup<T>(IServiceLocator serviceLocator) where T : class
+        public void Setup(IServiceLocator serviceLocator)
         {
             var windsorServiceLocator = (WindsorServiceLocator)serviceLocator;
             var container = windsorServiceLocator.Container;
