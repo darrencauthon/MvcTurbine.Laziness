@@ -32,12 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LinFu.Core">
-      <HintPath>..\..\lib\LinFu\LinFu.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="LinFu.DynamicProxy">
-      <HintPath>..\..\lib\LinFu\LinFu.DynamicProxy.dll</HintPath>
-    </Reference>
     <Reference Include="MvcTurbine">
       <HintPath>..\..\lib\MvcTurbine\MvcTurbine.dll</HintPath>
     </Reference>
@@ -51,10 +45,7 @@
   <ItemGroup>
     <Compile Include="ILazy.cs" />
     <Compile Include="Lazy.cs" />
-    <Compile Include="Registration\LazyServiceRegistration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Interception\ProxyCreator.cs" />
-    <Compile Include="Interception\ServiceLocatorInterceptor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
