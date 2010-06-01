@@ -4,10 +4,10 @@
 //using NUnit.Framework;
 //using Should;
 
-//namespace MvcTurbine.Laziness.Tests
+//namespace MvcTurbine.Laziness.Ninject.Tests
 //{
 //    [TestFixture]
-//    public class LazyTests
+//    public class NinjectLazyTests
 //    {
 //        [Test]
 //        public void Throws_an_invalid_operation_exception_when_called_without_setting_the_service_locator()
@@ -88,7 +88,7 @@
 
 //        public object Resolve(Type type)
 //        {
-//            if (type == typeof (TestClass))
+//            if (type == typeof(TestClass))
 //                return testClass;
 //            return null;
 //        }
