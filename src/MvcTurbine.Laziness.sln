@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTurbine.Laziness", "MvcTurbine.Laziness\MvcTurbine.Laziness.csproj", "{519329B3-4DA4-4E0D-8E56-B33CD57AB588}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTurbine.Laziness.Tests", "MvcTurbine.Laziness.Tests\MvcTurbine.Laziness.Tests.csproj", "{67E7B160-FA49-48CC-A215-2489A20B0DC4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTurbine.Laziness.Specs", "MvcTurbine.Laziness.Specs\MvcTurbine.Laziness.Specs.csproj", "{66251FF0-012B-4806-AAD7-CD763BD641CE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTurbine.Laziness.Unity", "MvcTurbine.Laziness.Unity\MvcTurbine.Laziness.Unity.csproj", "{AAA4E8B8-798C-4652-816A-130D532978BD}"
@@ -33,10 +31,6 @@ Global
 		{519329B3-4DA4-4E0D-8E56-B33CD57AB588}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{519329B3-4DA4-4E0D-8E56-B33CD57AB588}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{519329B3-4DA4-4E0D-8E56-B33CD57AB588}.Release|Any CPU.Build.0 = Release|Any CPU
-		{67E7B160-FA49-48CC-A215-2489A20B0DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67E7B160-FA49-48CC-A215-2489A20B0DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{67E7B160-FA49-48CC-A215-2489A20B0DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{67E7B160-FA49-48CC-A215-2489A20B0DC4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{66251FF0-012B-4806-AAD7-CD763BD641CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{66251FF0-012B-4806-AAD7-CD763BD641CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66251FF0-012B-4806-AAD7-CD763BD641CE}.Release|Any CPU.ActiveCfg = Release|Any CPU

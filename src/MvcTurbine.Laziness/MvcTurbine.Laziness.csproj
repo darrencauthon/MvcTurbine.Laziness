@@ -83,8 +83,6 @@
     <Compile Include="ILazy.cs" />
     <Compile Include="ILazySetup.cs" />
     <Compile Include="LazinessBlade.cs" />
-    <Compile Include="Lazy.cs" />
-    <Compile Include="NinjectLazy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

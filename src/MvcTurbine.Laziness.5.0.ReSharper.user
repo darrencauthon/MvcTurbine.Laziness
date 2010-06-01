@@ -8,45 +8,55 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Steps/f:LazyResolutionSteps.cs" caret="1689" fromTop="22" />
-      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Features/f:LazyResolutionFromTheServiceLocator.feature" caret="633" fromTop="15" />
       <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:ILazy.cs" caret="115" fromTop="3" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:LazinessBlade.cs" caret="0" fromTop="0" />
-      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="471" fromTop="12" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:Lazy.cs" caret="956" fromTop="19" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:NinjectLazy.cs" caret="493" fromTop="20" />
+      <File id="E0FD44A8-2E1B-4777-B9B2-30289B3163F8/f:StructureMapLazyTests.cs" caret="459" fromTop="15" />
+      <File id="63A67FB5-EC38-4361-9E58-A4C77B19E315/f:StructureMapLazy.cs" caret="394" fromTop="11" />
+      <File id="F593F149-31BC-406F-81DB-CE35257E5B42/f:UnityLazyTests.cs" caret="1835" fromTop="9" />
+      <File id="E227A5DE-6854-43B9-8E5B-C1A947EDECED/f:WindsorLazy.cs" caret="121" fromTop="4" />
+      <File id="5E99CA02-0E40-4958-B43D-3BCDD9EBAA34/f:UnityLazyTests.cs" caret="1812" fromTop="15" />
+      <File id="AAA4E8B8-798C-4652-816A-130D532978BD/f:Lazy.cs" caret="373" fromTop="11" />
+      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:ILazySetup.cs" caret="179" fromTop="6" />
+      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Steps/f:LazyResolutionSteps.cs" caret="2342" fromTop="15" />
+      <File id="0237ED83-7E59-47DD-BA6E-7D8CCEBD5F21/f:NinjectLazySetup.cs" caret="805" fromTop="19" />
+      <File id="63A67FB5-EC38-4361-9E58-A4C77B19E315/f:StructureMapLazySetup.cs" caret="371" fromTop="11" />
+      <File id="E227A5DE-6854-43B9-8E5B-C1A947EDECED/f:WindsorLazySetup.cs" caret="366" fromTop="12" />
+      <File id="AAA4E8B8-798C-4652-816A-130D532978BD/f:UnityLazySetup.cs" caret="375" fromTop="11" />
+      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Features/f:LazyResolutionFromTheServiceLocator.feature" caret="660" fromTop="15" />
+      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:LazinessBlade.cs" caret="2497" fromTop="14" />
+      <File id="0237ED83-7E59-47DD-BA6E-7D8CCEBD5F21/f:NinjectLazy.cs" caret="208" fromTop="7" />
+      <File id="EBAD3F3F-34EB-473A-92A0-FB50B1E9DBD2/f:LazyTests.cs" caret="232" fromTop="9" />
     </RecentFiles>
     <RecentEdits>
-      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Features/f:LazyResolutionFromTheServiceLocator.feature" caret="935" fromTop="23" />
-      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Steps/f:LazyResolutionSteps.cs" caret="1047" fromTop="27" />
-      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Steps/f:LazyResolutionSteps.cs" caret="1283" fromTop="26" />
-      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Steps/f:LazyResolutionSteps.cs" caret="740" fromTop="8" />
-      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Steps/f:LazyResolutionSteps.cs" caret="1572" fromTop="17" />
-      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Steps/f:LazyResolutionSteps.cs" caret="1801" fromTop="21" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:LazinessBlade.cs" caret="2250" fromTop="19" />
-      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Steps/f:LazyResolutionSteps.cs" caret="2953" fromTop="33" />
-      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Steps/f:LazyResolutionSteps.cs" caret="2096" fromTop="34" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:LazinessBlade.cs" caret="1695" fromTop="31" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:ILazy.cs" caret="157" fromTop="7" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:ILazy.cs" caret="115" fromTop="3" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:LazinessBlade.cs" caret="1475" fromTop="18" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:Lazy.cs" caret="956" fromTop="36" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:Lazy.cs" caret="956" fromTop="24" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:Lazy.cs" caret="956" fromTop="28" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:Lazy.cs" caret="956" fromTop="11" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:LazinessBlade.cs" caret="1635" fromTop="18" />
-      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="13" />
-      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="27" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:LazinessBlade.cs" caret="1042" fromTop="15" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:LazinessBlade.cs" caret="483" fromTop="15" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:LazinessBlade.cs" caret="485" fromTop="16" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:LazinessBlade.cs" caret="449" fromTop="13" />
-      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="11" />
-      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="9" />
-      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="261" fromTop="14" />
-      <File id="67E7B160-FA49-48CC-A215-2489A20B0DC4/f:LazyTests.cs" caret="4334" fromTop="152" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:Lazy.cs" caret="269" fromTop="9" />
-      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:Lazy.cs" caret="956" fromTop="19" />
+      <File id="0237ED83-7E59-47DD-BA6E-7D8CCEBD5F21/f:NinjectLazySetup.cs" caret="807" fromTop="20" />
+      <File id="0237ED83-7E59-47DD-BA6E-7D8CCEBD5F21/f:NinjectLazySetup.cs" caret="807" fromTop="10" />
+      <File id="63A67FB5-EC38-4361-9E58-A4C77B19E315/f:StructureMapLazySetup.cs" caret="166" fromTop="7" />
+      <File id="0237ED83-7E59-47DD-BA6E-7D8CCEBD5F21/f:NinjectLazySetup.cs" caret="354" fromTop="10" />
+      <File id="0237ED83-7E59-47DD-BA6E-7D8CCEBD5F21/f:NinjectLazySetup.cs" caret="817" fromTop="21" />
+      <File id="63A67FB5-EC38-4361-9E58-A4C77B19E315/f:StructureMapLazySetup.cs" caret="709" fromTop="22" />
+      <File id="63A67FB5-EC38-4361-9E58-A4C77B19E315/f:StructureMapLazySetup.cs" caret="725" fromTop="17" />
+      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:LazinessBlade.cs" caret="1900" fromTop="15" />
+      <File id="AAA4E8B8-798C-4652-816A-130D532978BD/f:UnityLazySetup.cs" caret="145" fromTop="7" />
+      <File id="AAA4E8B8-798C-4652-816A-130D532978BD/f:UnityLazySetup.cs" caret="610" fromTop="16" />
+      <File id="E227A5DE-6854-43B9-8E5B-C1A947EDECED/f:WindsorLazySetup.cs" caret="166" fromTop="7" />
+      <File id="E227A5DE-6854-43B9-8E5B-C1A947EDECED/f:WindsorLazySetup.cs" caret="651" fromTop="16" />
+      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:LazinessBlade.cs" caret="160" fromTop="4" />
+      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:LazinessBlade.cs" caret="2697" fromTop="19" />
+      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Features/f:LazyResolutionFromTheServiceLocator.feature" caret="330" fromTop="6" />
+      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Features/f:LazyResolutionFromTheServiceLocator.feature" caret="585" fromTop="13" />
+      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Features/f:LazyResolutionFromTheServiceLocator.feature" caret="830" fromTop="20" />
+      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Features/f:LazyResolutionFromTheServiceLocator.feature" caret="1075" fromTop="27" />
+      <File id="519329B3-4DA4-4E0D-8E56-B33CD57AB588/f:ILazySetup.cs" caret="217" fromTop="6" />
+      <File id="AAA4E8B8-798C-4652-816A-130D532978BD/f:UnityLazySetup.cs" caret="375" fromTop="11" />
+      <File id="E227A5DE-6854-43B9-8E5B-C1A947EDECED/f:WindsorLazySetup.cs" caret="366" fromTop="12" />
+      <File id="63A67FB5-EC38-4361-9E58-A4C77B19E315/f:StructureMapLazySetup.cs" caret="371" fromTop="11" />
+      <File id="0237ED83-7E59-47DD-BA6E-7D8CCEBD5F21/f:NinjectLazySetup.cs" caret="394" fromTop="13" />
+      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Steps/f:LazyResolutionSteps.cs" caret="2642" fromTop="18" />
+      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Steps/f:LazyResolutionSteps.cs" caret="2509" fromTop="25" />
+      <File id="66251FF0-012B-4806-AAD7-CD763BD641CE/d:Steps/f:LazyResolutionSteps.cs" caret="2474" fromTop="24" />
+      <File id="EBAD3F3F-34EB-473A-92A0-FB50B1E9DBD2/f:LazyTests.cs" caret="277" fromTop="36" />
+      <File id="EBAD3F3F-34EB-473A-92A0-FB50B1E9DBD2/f:LazyTests.cs" caret="277" fromTop="27" />
+      <File id="EBAD3F3F-34EB-473A-92A0-FB50B1E9DBD2/f:LazyTests.cs" caret="277" fromTop="18" />
+      <File id="EBAD3F3F-34EB-473A-92A0-FB50B1E9DBD2/f:LazyTests.cs" caret="234" fromTop="7" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -63,22 +73,22 @@
     <ItemStatistics item="Default">
       <Item value="testmstest" priority="2" />
       <Item value="testnunit" priority="3" />
-      <Item value="var" priority="24" />
+      <Item value="var" priority="34" />
       <Item value="try" priority="2" />
       <Item value="Assert`0" priority="1" />
       <Item value="InvalidOperationException`0" priority="0" />
-      <Item value="if" priority="8" />
+      <Item value="if" priority="9" />
       <Item value="catch" priority="0" />
       <Item value="correctExceptionThrown" priority="1" />
       <Item value="exception" priority="0" />
       <Item value="true" priority="0" />
       <Item value="LazyTests`0" priority="2" />
-      <Item value="new" priority="14" />
-      <Item value="ILazy" priority="2" />
+      <Item value="new" priority="19" />
+      <Item value="ILazy" priority="4" />
       <Item value="T`0" priority="3" />
       <Item value="InvalidOperationException" priority="0" />
-      <Item value="Lazy" priority="5" />
-      <Item value="lazy" priority="5" />
+      <Item value="Lazy" priority="6" />
+      <Item value="lazy" priority="6" />
       <Item value="public" priority="6" />
       <Item value="class" priority="1" />
       <Item value="IServiceProvider`0" priority="1" />
@@ -86,24 +96,24 @@
       <Item value="INeedAServiceLocator`0" priority="0" />
       <Item value="ServiceLocator" priority="0" />
       <Item value="value" priority="1" />
-      <Item value="private" priority="2" />
+      <Item value="private" priority="3" />
       <Item value="ServiceLocatorExtensions`0" priority="0" />
-      <Item value="IServiceLocator`0" priority="8" />
-      <Item value="serviceLocator" priority="29" />
-      <Item value="return" priority="7" />
+      <Item value="IServiceLocator`0" priority="10" />
+      <Item value="serviceLocator" priority="41" />
+      <Item value="return" priority="12" />
       <Item value="null" priority="4" />
       <Item value="as" priority="4" />
       <Item value="Test`0" priority="0" />
       <Item value="TestServiceLocator`0" priority="0" />
       <Item value="void" priority="0" />
-      <Item value="TestClass`0" priority="0" />
+      <Item value="TestClass`0" priority="1" />
       <Item value="type" priority="0" />
       <Item value="testClass" priority="0" />
       <Item value="TestClass" priority="0" />
-      <Item value="typeof" priority="2" />
+      <Item value="typeof" priority="6" />
       <Item value="ContextBoundObject`0" priority="0" />
       <Item value="ScenarioContext`0" priority="0" />
-      <Item value="context" priority="9" />
+      <Item value="context" priority="10" />
       <Item value="blade" priority="3" />
       <Item value="MockerExtensionMethods`0" priority="1" />
       <Item value="IRotorContext`0" priority="0" />
@@ -113,11 +123,26 @@
       <Item value="using" priority="0" />
       <Item value="Func" priority="0" />
       <Item value="loader" priority="0" />
-      <Item value="NinjectLazy" priority="0" />
+      <Item value="NinjectLazy" priority="1" />
       <Item value="GetServiceLocatorFromContext`0" priority="0" />
       <Item value="AssemblyLoadEventArgs`0" priority="0" />
       <Item value="Windsor" priority="0" />
       <Item value="AssertThatTheServiceLocatorExists`0" priority="0" />
+      <Item value="bool" priority="0" />
+      <Item value="ILazyCreator`0" priority="0" />
+      <Item value="ILazySetup`0" priority="0" />
+      <Item value="NinjectServiceLocator`0" priority="0" />
+      <Item value="structureMapServiceLocator" priority="0" />
+      <Item value="UnityServiceLocator`0" priority="0" />
+      <Item value="unityServiceLocator" priority="0" />
+      <Item value="WindsorServiceLocator`0" priority="0" />
+      <Item value="windsorServiceLocator" priority="0" />
+      <Item value="registrationList" priority="1" />
+      <Item value="locator" priority="0" />
+      <Item value="Registration`0" priority="0" />
+      <Item value="UnityLazySetup`0" priority="0" />
+      <Item value="StructureMap" priority="0" />
+      <Item value="expected" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
       <Item value="Throws`1" priority="0" />
@@ -140,8 +165,9 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:MvcTurbine.ComponentModel.IServiceLocator">
       <Item value="Resolve`0" priority="1" />
-      <Item value="Register`1" priority="2" />
+      <Item value="Register`1" priority="3" />
       <Item value="Batch`0" priority="0" />
+      <Item value="GetType`0" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@TechTalk.SpecFlow.ScenarioContext">
       <Item value="Current" priority="0" />
@@ -173,6 +199,19 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:MvcTurbine.Ninject.NinjectServiceLocator">
       <Item value="Container" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcTurbine.ComponentModel.AutoRegistrationList">
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcTurbine.Laziness.Unity.UnityLazySetup">
+      <Item value="CanSetup`0" priority="0" />
+      <Item value="Setup`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcTurbine.Laziness.Ninject.NinjectLazy`1">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcTurbine.Laziness.Ninject.Tests.TestClass">
+      <Item value="ShouldBeSameAs`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
