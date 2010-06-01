@@ -5,7 +5,12 @@ namespace MvcTurbine.Laziness
 {
     public class Lazy<T> : ILazy<T> where T : class
     {
-        private IServiceLocator serviceLocator;
+        private readonly IServiceLocator serviceLocator;
+
+        public Lazy(IServiceLocator serviceLocator)
+        {
+            this.serviceLocator = serviceLocator;
+        }
 
         public T Value
         {
@@ -26,24 +31,25 @@ namespace MvcTurbine.Laziness
             if (serviceLocator == null)
                 throw new InvalidOperationException("Must set the service locator.");
         }
-
-        public IServiceLocator ServiceLocator
-        {
-            set { serviceLocator = value; }
-        }
     }
 
-    public static class Helpers
+    public class NinjectLazy<T> : ILazy<T> where T : class
     {
-        public static object CreateLazy(IServiceLocator serviceLocator, Type type)
+        private readonly Func<T> loader;
+
+        public NinjectLazy(Func<T> loader)
         {
-            var lazyType = typeof (Lazy<>);
+            this.loader = loader;
+        }
 
-            var genericType = lazyType.MakeGenericType(new[]{type});
+        public T Value
+        {
+            get { return TheValueRetrievedFromTheServiceLocator(); }
+        }
 
-            var lazy = Activator.CreateInstance(genericType) as INeedAServiceLocator;
-            lazy.ServiceLocator = serviceLocator;
-            return lazy;
+        private T TheValueRetrievedFromTheServiceLocator()
+        {
+            return loader();
         }
     }
 }

@@ -12,7 +12,7 @@ namespace MvcTurbine.Laziness.Tests
         [Test]
         public void Throws_an_invalid_operation_exception_when_called_without_setting_the_service_locator()
         {
-            var lazy = new Lazy<TestClass>();
+            var lazy = new Lazy<TestClass>(null);
 
             var correctExceptionThrown = false;
             try
@@ -31,8 +31,7 @@ namespace MvcTurbine.Laziness.Tests
         [Test]
         public void Does_not_throw_an_invalid_operation_exception_if_the_service_locator_is_set()
         {
-            var lazy = new Lazy<TestClass>();
-            lazy.ServiceLocator = new TestServiceLocator();
+            var lazy = new Lazy<TestClass>(new TestServiceLocator());
             var value = lazy.Value;
         }
 
@@ -44,8 +43,7 @@ namespace MvcTurbine.Laziness.Tests
             var serviceLocator = new TestServiceLocator();
             serviceLocator.SetServiceLocatorToReturnThisWhenResolvingTestClass(expectedTestClass);
 
-            var lazy = new Lazy<TestClass>();
-            lazy.ServiceLocator = serviceLocator;
+            var lazy = new Lazy<TestClass>(serviceLocator);
 
             lazy.Value.ShouldBeSameAs(expectedTestClass);
         }

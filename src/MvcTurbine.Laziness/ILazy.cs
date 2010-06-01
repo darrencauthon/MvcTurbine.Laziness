@@ -2,13 +2,9 @@
 
 namespace MvcTurbine.Laziness
 {
-    public interface ILazy<T> : INeedAServiceLocator
+    public interface ILazy<T> where T : class
     {
         T Value { get; }
     }
 
-    public interface INeedAServiceLocator
-    {
-        IServiceLocator ServiceLocator { set; }
-    }
 }
