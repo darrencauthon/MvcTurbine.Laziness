@@ -12,12 +12,10 @@ namespace MvcTurbine.Laziness.Tests
         [Test]
         public void Throws_an_invalid_operation_exception_when_called_without_setting_the_service_locator()
         {
-            var lazy = new Lazy<TestClass>(null);
-
             var correctExceptionThrown = false;
             try
             {
-                var value = lazy.Value;
+                var lazy = new Lazy<TestClass>(null);
             }
             catch (InvalidOperationException exception)
             {

@@ -10,6 +10,7 @@ namespace MvcTurbine.Laziness
         public Lazy(IServiceLocator serviceLocator)
         {
             this.serviceLocator = serviceLocator;
+            AssertThatTheServiceLocatorExists();
         }
 
         public T Value
@@ -30,26 +31,6 @@ namespace MvcTurbine.Laziness
         {
             if (serviceLocator == null)
                 throw new InvalidOperationException("Must set the service locator.");
-        }
-    }
-
-    public class NinjectLazy<T> : ILazy<T> where T : class
-    {
-        private readonly Func<T> loader;
-
-        public NinjectLazy(Func<T> loader)
-        {
-            this.loader = loader;
-        }
-
-        public T Value
-        {
-            get { return TheValueRetrievedFromTheServiceLocator(); }
-        }
-
-        private T TheValueRetrievedFromTheServiceLocator()
-        {
-            return loader();
         }
     }
 }
