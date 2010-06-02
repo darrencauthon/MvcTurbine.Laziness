@@ -1,4 +1,5 @@
-﻿using Moq;
+﻿using System;
+using Moq;
 using MvcTurbine.ComponentModel;
 using MvcTurbine.Laziness.Ninject;
 using MvcTurbine.Laziness.StructureMap;
@@ -63,19 +64,16 @@ namespace MvcTurbine.Laziness.Specs.Steps
         [Given(@"all lazy setup has been done")]
         public void GivenAllLazySetupHasBeenDone()
         {
+            var registrationList = new AutoRegistrationList();
+            (new LazinessBlade()).AddRegistrations(registrationList);
+
             var serviceLocator = context.Get<IServiceLocator>();
-
-            if ((new StructureMapLazySetup()).CanSetup(serviceLocator))
-                (new StructureMapLazySetup()).Setup(serviceLocator);
-
-            if ((new NinjectLazySetup()).CanSetup(serviceLocator))
-                (new NinjectLazySetup()).Setup(serviceLocator);
-
-            if ((new WindsorLazySetup()).CanSetup(serviceLocator))
-                (new WindsorLazySetup()).Setup(serviceLocator);
-
-            if ((new UnityLazySetup()).CanSetup(serviceLocator))
-                (new UnityLazySetup()).Setup(serviceLocator);
+            IAutoRegistrator registrator = new TestingAutoRegistrator(serviceLocator);
+            using (serviceLocator.Batch())
+            {
+                foreach (var registration in registrationList)
+                    registrator.AutoRegister(registration);
+            }
         }
 
         private void UseThisServiceLocator(IServiceLocator serviceLocator)
@@ -113,6 +111,33 @@ namespace MvcTurbine.Laziness.Specs.Steps
 
         public class TestRepository
         {
+        }
+    }
+
+    public class TestingAutoRegistrator : IAutoRegistrator
+    {
+        private readonly IServiceLocator serviceLocator;
+
+        public TestingAutoRegistrator(IServiceLocator serviceLocator)
+        {
+            this.serviceLocator = serviceLocator;
+        }
+
+        public void AutoRegister(ServiceRegistration serviceRegistration)
+        {
+            if (serviceRegistration.ServiceType == typeof (ILazySetup))
+            {
+                serviceLocator.Register<ILazySetup, StructureMapLazySetup>("StructureMap");
+                serviceLocator.Register<ILazySetup, UnityLazySetup>("Unity");
+                serviceLocator.Register<ILazySetup, NinjectLazySetup>("Ninject");
+                serviceLocator.Register<ILazySetup, WindsorLazySetup>("Windsor");
+            }
+        }
+
+        public AssemblyFilter Filter
+        {
+            get { throw new NotImplementedException(); }
+            set { throw new NotImplementedException(); }
         }
     }
 }

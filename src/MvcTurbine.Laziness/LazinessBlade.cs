@@ -18,9 +18,7 @@ namespace MvcTurbine.Laziness
 
         public void AddRegistrations(AutoRegistrationList registrationList)
         {
-            registrationList.Add(
-                Registration.Custom<ILazySetup>(RegistrationFilters.DefaultFilter,
-                                                (locator, type) => locator.Register<ILazySetup>(type)));
+            registrationList.Add(Registration.Simple<ILazySetup>());
         }
     }
 }
