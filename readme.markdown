@@ -1,4 +1,2 @@
 
-MvcTurbine.Laziness is a small library that adds support for instantiating ILazy<T> from your IoC of choice.  By adding a reference to MvcTurbine.Laziness and MvcTurbine.Laziness.X (where X is Unity, StructureMap, Ninject, or Windsor), you'll be able to add ILazy<T> as a dependency.  
-
-ILazy<T> will not be resolved from the container until you call the Value() method.
+MvcTurbine.Laziness is a small library that adds support for instantiating ILazy<T> from your IoC of choice.  By adding a reference to MvcTurbine.Laziness and MvcTurbine.Laziness.X (where X is Unity, StructureMap, Ninject, or Windsor), you'll be able to add ILazy<T> as a dependency. ILazy<T> will not be resolved from the container until you call the Value() method.
